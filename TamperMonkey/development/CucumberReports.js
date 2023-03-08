@@ -66,6 +66,7 @@ function colorCucumberTags() {
 	colorCucumberTagForQA('@DossierResultat', qa);
 	colorCucumberTagForQA('@DossierActionLogResultat', qa);
 	colorCucumberTagForQA('RevisionResultat', qa);
+	colorCucumberTagForQA('CourrielResultat', qa);
 
 	//Équipe Médico admin
 	qa = 'Mad';
@@ -78,6 +79,7 @@ function colorCucumberTags() {
 	colorCucumberTagForQA('RendezVous', qa);
 	colorCucumberTagForQA('SalleAttente', qa);
 	colorCucumberTagForQA('PortailPatient', qa);
+	colorCucumberTagForQA('PwaElna', qa);
 	colorCucumberTagForQA('Omnidesk', qa);
 	colorCucumberTagForQA('@Aide', qa);
 	colorCucumberTagForQA('Contact', qa);
